@@ -1,0 +1,112 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  position: fixed;
+  color: green;
+  font-weight: bold;
+}
+
+h3 {
+  padding-top: 30px;
+  font-family: Open Sans Condensed, sans-serif;
+}
+
+
+.front-face{
+  padding: 3% 15%;
+  color: white;
+  margin-top: 450px;
+  text-align: center;
+  font-size: 0.5em;
+}
+
+#button {
+  display: block;
+  margin: 20px auto;
+}
+
+
+
+
+.video-background {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-columns: minmax(100px, auto);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1em;
+  padding-top: 0;
+  margin-top: 197px;
+}
+
+#images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em 0em;
+  width: 80%;
+}
+.pic1 {
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+  width: 150px;
+}
+
+
+h3 {
+  text-align: center;
+}
+
+.title {
+  text-align:center;
+}
+
+.profile {
+  width: 470px;
+  border-radius: 60%;
+}
+
+.horizontal {
+  margin:60px auto;
+  background-color: blue;
+  width: 75%;
+  border: 2px blue dotted;
+}
+
+.card {
+  border: 2px solid black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 500px;
+}
+
+.card:hover {
+  background-color: #e3dfc8;
+}
+
+h4 {
+  text-align: center;
+  padding-top: 30px 20px 20px 20px;
+  color: #96bb7c;
+}
+
+.resume {
+  margin: 0px auto;
+}
