@@ -2,11 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .navbar-brand {
   position: fixed;
   color: green;
@@ -20,6 +15,7 @@ h3 {
 
 
 .front-face{
+  margin-top: 0;
   padding: 3% 15%;
   color: white;
   margin-top: 450px;
@@ -33,19 +29,20 @@ h3 {
 }
 
 
-
-
 .video-background {
   position: absolute;
   right: 0;
   bottom: 0;
+  top: 0;
   min-width: 100%;
   min-height: 100;
   width: auto;
   height: auto;
   z-index: -1;
-  margin-top: 3%;
+  margin-top: 0;
 }
+
+
 
 .content {
   display: grid;
@@ -54,7 +51,7 @@ h3 {
   grid-auto-rows: minmax(100px, auto);
   grid-gap: 1em;
   padding-top: 0;
-  margin-top: 197px;
+  margin-top: 330px;
 }
 
 #images {
