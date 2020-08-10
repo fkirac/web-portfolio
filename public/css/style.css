@@ -8,6 +8,7 @@ html {
   font-weight: bold;
 }
 
+
 h3 {
   padding-top: 30px;
   font-family: Open Sans Condensed, sans-serif;
@@ -68,12 +69,8 @@ h3 {
 }
 
 
-h3 {
+h3, .title {
   text-align: center;
-}
-
-.title {
-  text-align:center;
 }
 
 .profile {
